@@ -10,12 +10,14 @@ const del = require('del');
 const concat = require('gulp-concat');
 const sourcemaps = require('gulp-sourcemaps');
 const csso = require('gulp-csso');
+const babel = require('gulp-babel');
 const uglify = require('gulp-uglify');
 
-let jsLibs = [
-  'node_modules/jquery/dist/jquery.js', // Jquery
-  'node_modules/slick-slider/slick/slick.min.js', // Slick
-]
+
+// let jsLibs = [
+//   'node_modules/jquery/dist/jquery.js', // Jquery
+//   'node_modules/slick-slider/slick/slick.min.js', // Slick
+// ]
 
 let cssLibs = [
   'node_modules/slick-slider/slick/slick.css', // Slick

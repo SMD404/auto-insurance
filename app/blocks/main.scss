@@ -43,9 +43,19 @@
   font-style: normal;
 }
 
+$black: #333333;
+$purple: #5C3CFD;
+$pink: #FF2A7A;
+$white: #FFFFFF;
+$grey: #F6F6F6;
+
+
 body {
   font-family: 'TTNorms';
   font-size: 16px;
+  color: $black;
+  margin: 0;
+  padding: 0;
 }
 h1 {
   font-size: 32px;
@@ -62,9 +72,25 @@ h3 {
 h4 {
   font-size: 18px;
 }
+
+.title {
+  font-family: 'TTnorms';
+  font-size: 32px;
+}
+.bg-grey {
+  background-color: $grey;
+}
 .container {
-  max-width: 1440px;
+  max-width: 1140px;
   width: 100%;
+  margin: 0 auto;
   box-sizing: border-box;
   padding: 0 15px;
+}
+
+.calc {
+  &-wrapper {
+    background-color: $white;
+
+  }
 }
